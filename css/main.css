@@ -1,0 +1,333 @@
+
+body{
+    font-family: 'Mr Dafoe', cursive;
+}
+.navtitle{
+    padding:15px 10px;
+    background-color: black;
+    color: lightcoral;
+}
+.navtitle h3{
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 5px;
+    transition: color 2s ease-in-out;
+}
+.navtitle h3:hover{
+    color: lightblue;
+}
+.fa-2x {
+    font-size: 2.4em;
+    padding-right: 16px;
+    transition: color ease-in-out 2s;
+}
+.fa-2x:hover{
+    color: lightblue;
+
+}
+.head{
+    min-height:calc(100vh - 76px);
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/sushi1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head .con {
+    margin-top: 140px;
+}
+.head h1{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 95px;
+    word-spacing: 0px;
+    transition: color 2s ease-in-out;
+}
+.head hr{
+    border: 2px dotted whitesmoke;
+    width: 50%;
+}
+.head span{
+    color: lightcoral;
+    transition: color 2s ease-in-out;
+}
+.head button{
+    color: lightcoral;
+    padding: 10px 30px;
+    margin-top: 11px;
+    border: 2px solid lightcoral;
+    transition: color 2s ease-in-out;
+}
+.head button:hover {
+    color: black;
+    background: whitesmoke;
+    border: 4px solid lightcoral;
+    transition: color 2s ease-in-out;
+}
+.head i{
+    color: whitesmoke;
+    margin-top: 90px;
+    transition: color 2s ease-in-out;
+}
+.head i:hover{
+    color: lightcoral;
+    transition: color 2s ease-in-out;
+}
+.navbar{
+    background-color: #bdb4b4 ;
+    position: static;
+
+}
+.navbar-brand{
+    color: lightcoral;
+    transition: color 2s ease-in-out;
+}
+.navbar-brand:hover {
+    color: whitesmoke;
+    transition: color 2s ease-in-out;
+
+
+}
+.navbar-toggler-icon{
+    background-color: lightcoral;
+    color: lightcoral;
+}
+.navbar-nav .nav-link{
+    color: black;
+    font-size: 31px;
+    word-spacing: 5px;
+
+}
+.navbar-collapse {
+    margin-left: 90px;
+}
+.navbar .form-inline .p{
+    margin-left: 160px;
+    color: lightcoral;
+    border: 2px solid lightcoral;
+    padding: 5px 15px;
+    transition: color 2s ease-in-out;
+}
+.imgs{
+    background-color: black;
+}
+.img-thumbnail {
+    margin-top: 45px;
+
+}
+.img-thumbnail:hover {
+    border: 6px solid lightcoral;
+    transition: color 2s ease-in-out;
+
+}
+.imgs h1{
+    color: lightcoral;
+
+}
+.price{
+    background: black;
+}
+.price h2{
+    color: white;
+}
+.price h2 span{
+    position: absolute;
+    color: lightcoral;
+    right: 60px;
+    top: 0px;
+    display: block;
+}
+.price p{
+    font-size: 23px;
+    color: #737371;
+
+}
+.about{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("../img/sushi4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+.about h3{
+    margin-left: 130px;
+    font-size: 59px;
+    text-align: -webkit-center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+}
+.about h2{
+    color: lightcoral;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 37px;
+}
+.about h1{
+    color: whitesmoke;
+}
+.about button{
+    font-size: 20px;
+    word-spacing: 3px;
+    color: lightcoral;
+    border: 2px solid lightcoral;
+    padding: 5px 20px;
+    margin-top: 15px;
+    transition: color 2s ease-in-out;
+}
+.about button:hover {
+
+    background: lightblue;
+    font-size:30px;
+    color: black;
+    border: 2px solid lightcoral;
+
+}
+.about .work h2{
+    font-size: 59px;
+    text-align: -webkit-center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-top: 95px;
+    margin-bottom: 4px;
+
+}
+.about .work p {
+    margin-left: 75px;
+    color: lightcoral;
+    font-size: 45px;
+}
+.chef{
+
+    background:black ;
+}
+
+.chef .card{
+    margin-bottom: 100px!important;
+    background: lemonchiffon;
+}
+.chef .card:hover {
+    border: 3px solid lemonchiffon;
+}
+
+.chef .img-fluid {
+    max-width: 100%;
+    height: 255px;
+}
+.chef h1 {
+    padding-bottom: 15px;
+    padding-top: 10px;
+    color: #c52e2e;
+    font-size: 90px;
+    transition: color 2s ease-in-out;
+}
+.chef h1:hover{
+    font-size: 100px;
+    color: lemonchiffon;
+}
+.card .card-title {
+    color: #c52e2e;
+    font-size: 35px;
+}
+.card .btn-outline-light {
+    color: #2a2c2d;
+    border-color: lightcoral;
+    padding: 5px 15px;
+    background: whitesmoke;
+    transition: color 2s ease-in-out;
+}
+.card .btn-outline-light:hover {
+    font-size: 20px;
+    color: black;
+    border: 2px solid lightcoral;
+}
+.contact{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("../img/contact.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.contact h1{
+    margin-top: 60px;
+    color: lightcoral;
+    word-spacing: 10px;
+    font-weight: bold;
+    margin-bottom: -18px;
+}
+.contact h2{
+    margin-top: 60px;
+    color: lightcoral;
+    word-spacing: 10px;
+    font-weight: bold;
+    margin-bottom: -18px;
+}
+.contact hr {
+    border: 1px solid;
+    color: white;
+    width: 70vh;
+}
+.contact .hre{
+    border: 1px solid;
+    color: white;
+}
+.contact .cont{
+    color: white;
+
+}
+.contact .cont  .na {
+    color: lightcoral;
+    padding-right: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.contact input , textarea{
+    background:rgba(0,0,0,.7);
+    color: lightcoral;
+    font-size: 25px;
+    width: 60vh;
+    color: whitesmoke;
+
+}
+
+.contact input:hover , textarea:hover {
+    border: 3px solid lightblue;
+}
+.contact textarea{
+    width: 60vh;
+
+}
+.contact .btn {
+    margin-left: 200px;
+    color: lightcoral;
+    border-color: #f8f9fa;
+    padding: 0px 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    transition: color 2s ease-in-out;
+
+}
+.contact .btn:hover{
+    color: black;
+    border: 3px solid lightcoral;
+    background: lightblue;
+
+}
+
+.contact .foot{
+    color: lightcoral;
+    margin-bottom: 2px;
+}
+
+
+
+
+
